@@ -112,7 +112,6 @@ Os formulários são responsáveis pela interface do usuário.
 - `uProdutos`: Formulário que exibe os produtos em uma grid e contém botões para buscar, deletar e incluir produtos.
 - `uCadastroProdutos`: Formulário chamado pelo `uProdutos` para inclusão de novos produtos, contendo campos necessários para a entrada dos dados do produto.
 
-Esta estrutura permite a separação clara das responsabilidades, facilitando a manutenção e a escalabilidade do código.
 </details>
 
 ## Desafio Proposto
