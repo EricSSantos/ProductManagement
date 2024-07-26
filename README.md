@@ -62,11 +62,6 @@ Este projeto contém os serviços e interfaces responsáveis pela lógica de neg
   - **GetAll**: Retorna todos os produtos.
   - **Add**: Adiciona um novo produto, validando os dados recebidos e gerando um novo código para o produto.
   - **Delete**: Exclui um produto existente, verificando se o produto existe antes de tentar deletá-lo.
-
-### Execução do Projeto
-
-- Para executar o projeto no Visual Studio, utilize o atalho `CTRL + '` para abrir o terminal integrado e execute os comandos de instalação das ferramentas e atualização do banco de dados conforme descrito na seção anterior.
-
 </details>
 
 <details>
@@ -84,4 +79,5 @@ Este projeto contém os serviços e interfaces responsáveis pela lógica de neg
      dotnet tool install --global dotnet-ef
      dotnet ef database update --project ProductAPI.Data --startup-project ProductAPI
      ```
+   - Para executar o projeto no Visual Studio, utilize o atalho `CTRL + '` para abrir o terminal integrado e execute os comandos de instalação das ferramentas e atualização do banco de dados conforme descrito na seção anterior.
 </details>
